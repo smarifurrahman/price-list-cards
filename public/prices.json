@@ -3,6 +3,7 @@
         "id": 1,
         "name": "Basic",
         "features": [
+            "Gym Access",
             "Equipment Access",
             "Locker Room"
         ],
@@ -12,6 +13,7 @@
         "id": 2,
         "name": "Premium",
         "features": [
+            "Gym Access",
             "Equipment Access",
             "Locker Room",
             "Group Classes"
@@ -22,6 +24,7 @@
         "id": 3,
         "name": "VIP",
         "features": [
+            "Gym Access",
             "Equipment Access",
             "Locker Room",
             "Group Classes",
