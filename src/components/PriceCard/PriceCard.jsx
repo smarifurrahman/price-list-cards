@@ -18,7 +18,7 @@ const PriceCard = ({ price }) => {
                     ></Feature>)
                 }
             </div>
-            <button className='w-full bg-purple-500 py-3 rounded-md text-lg font-medium text-white hover:bg-purple-600 mt-auto'>Subscribe Now</button>
+            <button className='w-full bg-purple-500 py-3 rounded-md text-lg font-medium text-white hover:bg-purple-600 mt-auto'>Enroll Now</button>
         </div>
     );
 };
