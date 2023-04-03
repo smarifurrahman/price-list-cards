@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
+      <h1 className='text-xl'>Tailwind With React</h1>
     </div>
   )
 }
