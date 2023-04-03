@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Basic",
+        "features": [
+            "Equipment Access",
+            "Locker Room"
+        ],
+        "price": 29.99
+    },
+    {
+        "id": 2,
+        "name": "Premium",
+        "features": [
+            "Equipment Access",
+            "Locker Room",
+            "Group Classes"
+        ],
+        "price": 49.99
+    },
+    {
+        "id": 3,
+        "name": "VIP",
+        "features": [
+            "Equipment Access",
+            "Locker Room",
+            "Group Classes",
+            "Personal Training"
+        ],
+        "price": 99.99
+    }
+]
