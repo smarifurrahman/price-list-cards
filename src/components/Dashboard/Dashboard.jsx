@@ -9,11 +9,33 @@ const Dashboard = () => {
             .then(data => setMarks(data))
     }, [])
 
-    console.log(marks)
-
     return (
-        <div>
-            
+        <div className='my-10'>
+            <LineChart
+                width={1000}
+                height={300}
+                data={marks}
+            >
+                <Line
+                    dataKey="physics"
+                    stroke="#8884d8"
+                ></Line>
+                <Line
+                    dataKey="mathematics"
+                    stroke="#82ca9d"
+                ></Line>
+
+                <Line
+                    dataKey="chemistry"
+                    stroke="#82ca1d"
+                ></Line>
+
+                <XAxis dataKey="name"></XAxis>
+                <YAxis></YAxis>
+                <Tooltip></Tooltip>
+                <Legend></Legend>
+            </LineChart>
+
         </div>
     );
 };
