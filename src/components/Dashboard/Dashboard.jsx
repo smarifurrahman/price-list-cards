@@ -12,15 +12,22 @@ const Dashboard = () => {
     return (
         <div className='my-10'>
             <LineChart
-                width={1000}
+                width={800}
                 height={300}
                 data={marks}
             >
+                <CartesianGrid strokeDasharray="3 3"></CartesianGrid>
+                <XAxis dataKey="name"></XAxis>
+                <YAxis></YAxis>
+                <Tooltip></Tooltip>
+                <Legend></Legend>
+                
                 <Line
                     dataKey="physics"
                     stroke="#8884d8"
                     type="monotone"
                 ></Line>
+
                 <Line
                     dataKey="mathematics"
                     stroke="#82ca9d"
@@ -32,12 +39,6 @@ const Dashboard = () => {
                     stroke="#82ca1d"
                     type="monotone"
                 ></Line>
-
-                <XAxis dataKey="name"></XAxis>
-                <YAxis></YAxis>
-                <Tooltip></Tooltip>
-                <Legend></Legend>
-                <CartesianGrid strokeDasharray="3 3"></CartesianGrid>
             </LineChart>
 
         </div>
